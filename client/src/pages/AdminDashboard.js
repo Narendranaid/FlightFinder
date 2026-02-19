@@ -69,7 +69,7 @@ function AdminDashboard() {
       {/* Stats Section */}
       <div className="row mb-4">
         <div className="col-md-6">
-          <div className="card bg-primary text-white shadow p-3">
+          <div className="admin-card bg-primary text-white shadow p-3">
             <h5>Total Flights</h5>
             <h3>{flights.length}</h3>
           </div>

@@ -38,7 +38,7 @@ const [showPassword, setShowPassword] = useState(false);
 
   return (
     <div className="container mt-5">
-      <div className="card p-4 mx-auto" style={{ maxWidth: "400px" }}>
+      <div className="login-card p-4 mx-auto" style={{ maxWidth: "400px" }}>
         <h2 className="text-center mb-4">Register</h2>
 
         <form onSubmit={handleRegister}>
@@ -62,12 +62,12 @@ const [showPassword, setShowPassword] = useState(false);
             required
           />
 
-         <div className="mb-3 position-relative">
+<div className="mb-3 position-relative">
   <input
     type={showPassword ? "text" : "password"}
     name="password"
     placeholder="Password"
-    className="form-control"
+    className="form-control pe-5"
     value={form.password}
     onChange={handleChange}
     required
@@ -75,12 +75,13 @@ const [showPassword, setShowPassword] = useState(false);
 
   <button
     type="button"
-    className="btn btn-sm btn-outline-secondary position-absolute top-50 end-0 translate-middle-y me-2"
+    className="show-btn"
     onClick={() => setShowPassword(!showPassword)}
   >
     {showPassword ? "Hide" : "Show"}
   </button>
 </div>
+
 
 
           <button className="btn btn-primary w-100">

@@ -75,7 +75,7 @@ const [popup, setPopup] = useState({
     )}
 
     {bookings.map((booking) => (
-      <div key={booking._id} className="card mb-3 p-3">
+      <div key={booking._id} className="flight-card mb-3 p-3">
 
         {booking.flight ? (
           <>

@@ -126,7 +126,7 @@ function Home() {
   </div>
 ) : (
   filteredFlights.map((flight) => (
-    <div key={flight._id} className="card mb-3 p-3">
+    <div key={flight._id} className="flight-card mb-3 p-3">
       <h5>{flight.airline}</h5>
       <p>
         {flight.departureCity} → {flight.destinationCity}
