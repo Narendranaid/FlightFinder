@@ -32,19 +32,6 @@ FlightFight is a full-stack flight booking web application that allows users to 
 
 ---
 
-## 📁 Project Structure
-FlightFight/
-│
-├── client/ # Frontend (React)
-│
-├── server/ # Backend (Express + MongoDB)
-│
-├── package.json # Root (optional - concurrently)
-└── README.md
-
-
----
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
